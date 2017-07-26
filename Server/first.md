@@ -32,8 +32,8 @@ DELETE /notes/:index // 특정 번호를 가진 note 삭제
 Issue 정리
 ----------
 
-*서버 라우팅 path와 HTTP METHOD 정리
+* 서버 라우팅 path와 HTTP METHOD 정리
 	
-	*적용
+	* 적용
 
-*Server/Document 필독!!!
+* Server/Document 필독!!!
