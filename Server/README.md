@@ -29,6 +29,11 @@ DELETE /notes/:index // 특정 번호를 가진 note 삭제
 
 500 : 내부서버 예외
 
+REDME
+-----
+Port : 5000
+npm : hapi
+
 Issue 정리
 ----------
 
