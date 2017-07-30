@@ -1,6 +1,6 @@
 module.exports = (connection) => {
     let noteHandle = require('../handles/note-handle')(connection);
-    
+
     let addNote = (request, reply) => {
         try {
             let account = request.yar.get('account');
@@ -8,8 +8,8 @@ module.exports = (connection) => {
             if (account) {
                 let { email } = account;
                 let { title, text } = request.payload;
-                
-                noteHandle.add(title, text, email, (result) => {                    
+
+                noteHandle.add(title, text, email, (result) => {
                     reply(null).code(200);
                 });
             } else {
@@ -46,15 +46,15 @@ module.exports = (connection) => {
     let findNote = (request, reply) => {
         try {
             let account = request.yar.get('account');
-            
+
             if (account) {
                 let { id } = request.params;
                 let { email } = account;
-                
+
                 noteHandle.find(id, (result) => {
                     if (result.length == 1) {
                         let note = { id, title, text, writer } = result[0];
-                        
+
                         if (note.writer === email) {
                             reply(result).code(200);
                         } else {
@@ -83,9 +83,9 @@ module.exports = (connection) => {
 
                 noteHandle.find(id, (result) => {
                     if (result.length == 1) {
-                        let note = { id, title, text, writer } = result[0];
+                        let { writer } = result[0];
 
-                        if (note.writer === email) {
+                        if (writer === email) {
                             noteHandle.update(id, title, text, (result) => {
                                 reply(null);
                             });

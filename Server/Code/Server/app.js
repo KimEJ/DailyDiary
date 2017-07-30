@@ -10,9 +10,9 @@ server.register({
     register: require('hapi-mysql'),
     options: {
         host: 'localhost',
-        database: 'daily_diary',
-        user: 'your-database-username',    // set your database username
-        password: 'your-database-password'    // set your database password
+        database: 'DAILYDIARY',
+        user: 'root',    // set your database username
+        password: 'Djwlsznzld5090'    // set your database password
     }
 
 }, (error) => {
@@ -25,7 +25,7 @@ server.register({
     register: require('yar'),
     options: {
         cookieOptions: {
-            password: 'min 32 characters',
+            password: 'asdkfjaasdfjhawhfghusdvs9239482935',
             isSecure: false
         }
     }
