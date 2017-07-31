@@ -16,10 +16,18 @@ module.exports = (server) => {
             handler: accountAction.signIn
         });
 
+        // DELETE /accounts/signout
         server.route({
             method: 'DELETE',
             path: '/accounts/signout',
             handler: accountAction.signOut
+        });
+
+        // DELETE /accounts/secession
+        server.route({
+            method: 'DELETE',
+            path: '/accounts/secession',
+            handler: accountAction.secession
         });
     });
 }

@@ -22,7 +22,7 @@ module.exports = (connection) => {
             reply(null).code(500);
         }
     };
-    
+
     let signUp = (request, reply) => {
         try {
             let { email, password } = request.payload;
@@ -45,8 +45,8 @@ module.exports = (connection) => {
     let signOut = (request, reply) => {
         try {
             let account = request.yar.get('account');
-            
-            if (account) {    
+
+            if (account) {
                 request.yar.reset();
                 reply(null).code(200);
             } else {
@@ -58,7 +58,28 @@ module.exports = (connection) => {
         }
     };
 
+    let secession = (request, reply) => {
+        try {
+            let account = request.yar.get('account');
+
+            if (account) {
+                let { email } = account;
+
+                memberHandle.removeAll(email, (result) =>{
+                    memberHandle.remove(email, (result) =>{
+                        request.yar.reset();
+                    });
+                });
+            }else{
+                reply(null).code(401);
+            }
+        } catch (e) {
+            console.error(e);
+            reply(null).code(500);
+        }
+    };
+
     return {
-        signIn, signUp, signOut
+        signIn, signUp, signOut, secession
     };
 };
