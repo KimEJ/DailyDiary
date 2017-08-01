@@ -4,19 +4,23 @@ Summary
 서버 라우팅 path와 HTTP METHOD 정리
 -----------------------------------
 
-POST /auth/signin // 로그인
+POST /accounts/signin 		// 로그인
 
-POST /auth/signup // 회원가입
+POST /accounts/signup 		// 회원가입
 
-GET /notes // 사용자가 작성한 note 목록 전송
+DELETE /accounts/secession 	//탈퇴
 
-GET /notes/:index // 특정 번호를 가진 note의 정보 전송
+--------------------
 
-POST /notes // 특정 사용자의 note 작성
+GET /notes 					// 사용자가 작성한 note 목록 전송
 
-PUT /notes/:index // 특정 번호를 가진 note의 정보 수정
+GET /notes/:index 			// 특정 번호를 가진 note의 정보 전송
 
-DELETE /notes/:index // 특정 번호를 가진 note 삭제
+POST /notes 				// 특정 사용자의 note 작성
+
+PUT /notes/:index 			// 특정 번호를 가진 note의 정보 수정
+
+DELETE /notes/:index 		// 특정 번호를 가진 note 삭제
 
 
 사용 HTTP 상태코드
