@@ -3,29 +3,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="teamproject.dsm.com.dailydiary.Search2Activity"
-    android:orientation="vertical">
-    <LinearLayout
+    android:orientation="vertical"
+    tools:context="teamproject.dsm.com.dailydiary.Search2Activity">
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:background="#fafafa" >
 
-        >
         <Button
             android:id="@+id/left_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src=""/>
+            android:layout_toLeftOf="@+id/today"
+            android:src="" />
+
         <TextView
+            android:id="@+id/today"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/date"/>
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:text="@string/date" />
+
         <Button
             android:id="@+id/right_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src=""/>
-    </LinearLayout>
+            android:layout_toRightOf="@+id/today"
+            android:src="" />
+    </RelativeLayout>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"></ListView>
