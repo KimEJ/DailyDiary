@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SearchActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            android:name=".CalendarActivity"
+            android:theme="@style/MainTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,8 @@
             android:name=".NaviActivity"
             android:label="@string/title_activity_navi"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".CalendarActivity"></activity>
+        <activity android:name=".WriteActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
