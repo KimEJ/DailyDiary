@@ -18,7 +18,7 @@
         <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="2.13">
 
             <ImageButton
                     android:id="@+id/menu"
@@ -76,22 +76,16 @@
                     android:layout_marginRight="70dp"/>
 
             <ImageButton
-                    android:id="@+id/search"
-                    android:layout_width="33sp"
-                    android:layout_height="33sp"
-                    android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/setting"
-                    android:background="@drawable/search"/>
+                android:id="@+id/search"
+                android:layout_width="33sp"
+                android:layout_height="33sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/search"
+                android:layout_marginLeft="36sp"/>
 
-            <ImageButton
-                    android:id="@+id/setting"
-                    android:layout_width="30sp"
-                    android:layout_height="30sp"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="5sp"
-                    android:layout_marginRight="10sp"
-                    android:background="@drawable/setting"/>
+
         </RelativeLayout>
     </android.support.v7.widget.Toolbar>
 

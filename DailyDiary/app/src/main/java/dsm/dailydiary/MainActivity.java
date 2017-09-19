@@ -11,8 +11,3 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
-
-/** 캘린더 */
-/** 네비바 */
-/** 날씨 */
-/** 타이틀바 커스텀 */
