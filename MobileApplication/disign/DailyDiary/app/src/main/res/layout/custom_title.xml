@@ -10,7 +10,7 @@
         android:layout_alignParentLeft="true"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:background="@drawable/memu"/>
+        android:background="@drawable/menu"/>
 
     <TextView
         android:text="타이틀"

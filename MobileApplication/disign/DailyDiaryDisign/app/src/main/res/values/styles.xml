@@ -1,13 +1,42 @@
 <resources>
 
     <!-- Base application theme. -->
+<<<<<<< HEAD
+<<<<<<< HEAD
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+=======
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <!-- No Title Bar-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
     </style>
 
+=======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+
+    </style>
+
+    <style name="MainTheme" >
+        <item name="colorMain">@color/colorMain</item>
+        <item name="colorWhite">@color/colorWhite</item>
+    </style>
+
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -17,4 +46,23 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+    <style name="CustomMainTitle" parent="android:Theme">
+        <item name="android:windowTitleSize">40dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">#1de9b6</item>
+    </style>
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 </resources>
