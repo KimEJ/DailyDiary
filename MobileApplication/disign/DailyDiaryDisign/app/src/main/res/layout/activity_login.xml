@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <?xml version="1.0" encoding="utf-8"?> <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -10,6 +11,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/Scrim" />
 =======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -67,5 +70,8 @@
         android:layout_gravity="center"
         android:text="Sign Up" />
 
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 </LinearLayout>

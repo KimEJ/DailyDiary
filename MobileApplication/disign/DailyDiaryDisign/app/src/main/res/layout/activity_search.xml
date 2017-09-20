@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -33,6 +34,8 @@
 
 </android.support.constraint.ConstraintLayout>
 =======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -112,4 +115,7 @@
         app:fabSize="normal" />
 
 </android.support.design.widget.CoordinatorLayout>
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17

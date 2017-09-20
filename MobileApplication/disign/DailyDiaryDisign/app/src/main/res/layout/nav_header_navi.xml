@@ -11,7 +11,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+=======
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:backgroundTint="@color/colorMain">
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:backgroundTint="@color/colorMain">
@@ -23,7 +28,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:srcCompat="@android:drawable/sym_def_app_icon" />
+=======
+        app:srcCompat="@drawable/user" />
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
         app:srcCompat="@drawable/user" />
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
@@ -33,7 +42,11 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:text="Android Studio"
+=======
+        android:text="Name"
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
         android:text="Name"
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
@@ -44,7 +57,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:text="android.studio@android.com" />
+=======
+        android:text="Email" />
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
         android:text="Email" />
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17

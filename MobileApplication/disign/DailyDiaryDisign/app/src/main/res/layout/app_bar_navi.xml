@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -19,6 +20,8 @@
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 =======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
         <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/mainToolbar"
             android:layout_width="match_parent"
@@ -68,6 +71,9 @@
                     />
             </RelativeLayout>
         </android.support.v7.widget.Toolbar>
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 
     </android.support.design.widget.AppBarLayout>
@@ -76,7 +82,11 @@
 
     <android.support.design.widget.FloatingActionButton
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:id="@+id/fab"
+=======
+        android:id="@+id/plus"
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
         android:id="@+id/plus"
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
@@ -85,12 +95,18 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:srcCompat="@android:drawable/ic_dialog_email" />
 =======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
         android:layout_marginHorizontal="@dimen/fab_margin"
         android:src="@drawable/edit"
         android:backgroundTint="#00BFA5"
         app:fabSize="normal" />
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 
 </android.support.design.widget.CoordinatorLayout>

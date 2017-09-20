@@ -8,7 +8,13 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationFrame" />
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
 =======
     <FrameLayout android:layout_width="match_parent"
         android:layout_height="match_parent"

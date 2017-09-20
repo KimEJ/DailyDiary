@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <activity
         android:name=".SplashActivity"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -31,6 +32,8 @@
         android:label="@string/title_activity_navi"
         android:theme="@style/AppTheme.NoActionBar" />
 =======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
         <activity
             android:name=".CalendarActivity"
             android:theme="@style/MainTheme">
@@ -53,6 +56,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".WriteActivity" />
         <activity android:name=".SearchActivity"></activity>
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
 >>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
     </application>
 
