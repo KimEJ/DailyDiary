@@ -3,15 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="teamproject.dsm.com.dailydiary.MainActivity"
-    >
-
+    tools:context="teamproject.dsm.com.dailydiary.MainActivity" >
 
     <ListView
         android:id="@+id/diary_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

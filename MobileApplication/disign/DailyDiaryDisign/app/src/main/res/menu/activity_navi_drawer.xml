@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+=======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/list"
+            android:title="리스트" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/calendar"
+            android:title="캘린더" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/myPage"
+            android:title="마이페이지" />
+    </group>
+
+
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+
+</menu>

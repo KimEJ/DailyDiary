@@ -21,7 +21,12 @@
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+<<<<<<< HEAD
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+=======
+            android:theme="@style/CustomTitle"/>
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
         <activity
             android:name=".SignUpActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />

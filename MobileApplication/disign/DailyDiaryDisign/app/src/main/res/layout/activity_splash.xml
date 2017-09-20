@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.kim_eojin.dailydiarydisign.SplashActivity">
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+</android.support.constraint.ConstraintLayout>
+=======
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Copyright © 2017 DD TEAM. All rights reserved." />
+
+</RelativeLayout>
+<<<<<<< HEAD
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17

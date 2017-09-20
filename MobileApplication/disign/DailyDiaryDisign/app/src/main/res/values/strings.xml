@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Daily Diary Disign</string>
+    <string name="title_activity_navi">NaviActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <string name = "date">2017.08</string>
+    <string name="action_settings">Settings</string>
+=======
+    <string name="date">2017.08</string>
+    <string name="action_settings">Settings</string>
+
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+=======
+    <string name="date">2017.08</string>
+    <string name="action_settings">Settings</string>
+
+>>>>>>> 936999fefe75ac007d87def0d0af50669fef4e17
+</resources>
